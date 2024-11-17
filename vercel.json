@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "tap1.html",
+      "src": "main.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/tap1.html"
+      "dest": "/main.html"
     }
   ]
 }
