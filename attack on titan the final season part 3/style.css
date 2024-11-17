@@ -1,0 +1,95 @@
+/* Resetting basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Banner Section */
+.banner {
+    width: 100%;
+    height: 250px;
+    background-image: url('banner.jpg'); /* Replace with your actual banner image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    color: #f9f9f9;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 5px;
+}
+
+/* Fansub Image */
+.fansub-image {
+    margin-top: 10px;
+    width: 150px; /* Adjust width as needed */
+    height: auto;
+}
+
+/* Episode Selection Section */
+.episode-selection {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.episode-selection h2 {
+    font-size: 2rem;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    margin: 10px;
+    color: #fff;
+    background-color: #3a3a3a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Animation */
+button:hover {
+    background-color: #575757;
+    box-shadow: 0 0 10px #ffbb00, 0 0 20px #ffbb00, 0 0 30px #ffbb00;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 1.8rem;
+    }
+    .fansub {
+        font-size: 1rem;
+    }
+    .episode-selection h2 {
+        font-size: 1.5rem;
+    }
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
