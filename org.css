@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+    background-image: url('/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.banner-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ff9900;
+}
+
+/* Latest Episodes Section */
+.episodes {
+    padding: 20px;
+    background-color: #222;
+}
+
+.episodes h2 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.episode-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.episode {
+    width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.episode img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.episode-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.episode-link:hover {
+    background-color: #ff9900;
+}
+
+/* Categories Section */
+.categories {
+    padding: 20px;
+    background-color: #222;
+}
+
+.categories h2 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.category-link:hover {
+    background-color: #ff9900;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
